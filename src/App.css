@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.App {
+  text-align: center; 
+}
+*{
+  font-family: 'Poppins', sans-serif; 
+}
+body{
+  margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background-color:#EAEBF0;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.custom-sidebar {
+  height: 100vh;
+}  
+.sideBarWidth{
+  width: 20%;
+  position: fixed;
+  margin-top: 0;
+  margin-left: 10px;
+  padding: 5px !important; 
+  font-weight: bold;
+  background-color:   #fff; 
+}
+.sideBarStyle{  
+  color: black;
+}
+.containerListagem{
+  margin-left: 25%;  
+}
+.cardWidth{
+  width: 200px;
+}
+.containerEx{  
+  width: 100vw; 
+  height: 100vh;
+}
+.colorCard:hover{  
+  background-color:#7467EF;
+}
+.itensWidth{ 
+  display: flex;
+  justify-content: center; 
+  gap: 150px;
+}
+.posicionamento{
+  display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-left: auto;
+}
+.rowWidth{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.listagemWidth{
+  flex-direction: row;
+}
+.listagemContainer{
+  margin-top: 5%; 
+  font-weight: bold;
+}
+.botaoListagem{
+  margin-right: 10%;
+  margin-top: 5%; 
+  background-color:#7467EF;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.botaoListagem:hover{
+  background-color:#8F84F2;
+}
+.rowListagem{
+  padding-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+
+} 
+.titleDashboard{
+  padding-left: 10%;
+  margin-left: 10%;
+}
+.cardBody{  
+  flex: 0 0 50%; 
+  box-sizing: border-box;
+  padding: 0 10px;  
+  margin-bottom: 50px;   
+}
+.cardSize{
+  padding: 30px;
+}
+.cardMeasures{ 
+  width: 360px;
+  height: 230px; 
+  border: 1px solid #ddd;
+  margin: auto;
+  padding: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease; 
+}
+.cardMeasuresProdutos{
+  width: 320px;
+  height: 250px; 
+  border: 1px solid #ddd;
+  margin: auto;
+  padding: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease; 
+}
+.cardMeasures:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+button{
+  margin: 10px;
+  padding: 10px;
+}
+.botaoDelete{
+  background-color: #ffabab;
+  align-items: center;
+}
+.botaoDelete:hover{
+  background-color: #f40034;
+  align-items: center;
+}
+.loginCard{
+  width: 60vw;
+  height: 55vh;
+}
+.botaoLogin{
+  width: 57vw;  
+  background-color:#7467EF;
+  color: #fff;
+}
+.botaoLogin:hover{ 
+  background-color:#8F84F2;
+}
+
+.colorBrand{
+   color:#7467EF;
+}
+
+.colorBrandHover:hover{
+  border-radius: 20px;
+  background-color:#8F84F2;
+}
+.cotacaoWidth{
+  flex-direction: column;
+  justify-content: center; 
+  padding-bottom: 45px;
+  align-items: center; 
+}
+.tableMeasures{
+  width: 100%;
+}
+.tableMeasures th,
+.tableMeasures td {
+  padding: 8px;
+}
+
+.tableMeasures th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  text-align: left;
+}
+
+.tableMeasures tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tableMeasures tbody tr:hover {
+  background-color: #f2f2f2;
+}
